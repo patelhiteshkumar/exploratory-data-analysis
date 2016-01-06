@@ -1,4 +1,4 @@
-#Read the data provided
+#Read the data provided as part of the Course project 1
 data = read.table("household_power_consumption.txt", sep=";", na.strings = "?", header = TRUE, stringsAsFactors = FALSE)
 
 #Filter the data to retain the required rows
